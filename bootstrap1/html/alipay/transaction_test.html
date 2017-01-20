@@ -175,42 +175,22 @@
 					<dd> 1. 填 <code>Request Payload</code> 參數值及使用的 <code>Merchant</code>，按 <span class="label label-default">產生QRCode</span> 送出 </dd>
 					<dd> 2. 同時並啟動 Notify 等待支付結果，確認 <code>Trans_code</code> 和 <code>Check_code</code> 是否為目前支付訂單的資料，而 <code>Xpay Server IP</code> 為設定該功能 query 的 IP，再按 <span class="label label-default">開始等待notify</span> </dd>
 					<dd> 3. 使用 Alipay App 支付掃描，掃描上面的 QRCdoe 付款即可 </dd>
-					<span class="label label-success">查詢 Order 狀態</span>
-					<dd> 填 <code>Merchant</code> 及 預查交易序號 <code>Out_trade_no</code>，按 <span class="label label-default">查詢訂單狀態</span> 送出 </dd>
 				</dl>
 	        </div>
 
 	        <div class="col-xs-6" style="padding:20px">
 				<dl>
+					<span class="label label-success">查詢 Order 狀態</span>
+					<dd> 填 <code>Merchant</code> 及 預查交易序號 <code>Out_trade_no</code>，按 <span class="label label-default">查詢訂單狀態</span> 送出 </dd>
+					
 					<span class="label label-success">關閉 Order</span>
 					<dd> 填 <code>Merchant</code> 及預關閉交易序號 <code>Out_trade_no</code>，按 <span class="label label-default">關閉訂單</span> 送出 </dd>
+					
 					<span class="label label-success">退款 Order</span>
 					<dd> 填 <code>Merchant</code> 、預退款交易序號 <code>Out_trade_no</code> 及退款金額 <code>Refund_amount</code>，按 <span class="label label-default">退款</span> 送出 </dd>
-					<span class="label label-success">初始畫面</span>
-					<dd> 按 <span class="label label-default">清除</span> </dd>
 				</dl>
 	        </div>
 		</div>
-
-		<!-- <div class="col-lg-12 text-center">
-			<div id="annotate2" style="text-align:left;">
-				<span class="label label-info">註</span>
-				<dl>
-					<dd>＠產生支付 QRcode</dd>
-					<dd>- 要填 [Request Payload] 參數值及使用的 [Merchant]，按「產生QRCode」送出</dd>
-					<dd>- 同時並啟動 Notify 等待支付結果，確認 [Trans_code] 和 [Check_code] 是否為目前支付訂單的資料，而 [Xpay Server IP] 為設定該功能 query 的 IP，再按「開始等待notify」</dd>
-					<dd>- 使用 Alipay App 支付掃描，掃描上面的 QRCdoe 付款即可</dd>
-					<dd>＠查詢 Order 狀態</dd>
-					<dd>- 要填 [Merchant] 及 預查交易序號 [Out_trade_no]，按「查詢訂單狀態」送出</dd>
-					<dd>＠關閉 Order</dd>
-					<dd>- 要填 [Merchant] 及預關閉交易序號 [Out_trade_no]，按「關閉訂單」送出</dd>
-					<dd>＠退款 Order</dd>
-					<dd>- 要填 [Merchant] 、預退款交易序號 [Out_trade_no] 及退款金額 [Refund_amount]，按「退款」送出</dd>
-					<dd>＠初始畫面</dd>
-					<dd>- 按「清除」</dd>
-				</dl>
-			</div>
-		</div> -->
 	</nav>
 
     <!-- jQuery -->
