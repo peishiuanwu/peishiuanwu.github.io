@@ -204,15 +204,15 @@
 					<dd> 2. "orderId" 可自訂或用產生訂單編號來建立 </dd>
 					<dd> 3. 同時並啟動 Notify 等待支付結果，確認 <code>Trans_code</code> 和 <code>Check_code</code> 是否為目前支付訂單的資料，按<span class="label label-default">開始等待notify</span> </dd>
 					<dd> 4. 使用 Line Pay App 支付掃描，掃描上面的 QRCdoe 付款即可 </dd>
-
-					<span class="label label-danger">直接支付</span> (商家掃描顧客 QR code 付款)
-					<dd> 1. 填 <code>商家掃描顧客QRcode Request Payload 2</code> 參數值及選擇 <code>Payment model</code> 為"商家掃描顧客QRcode"，與使用的 <code>Merchant</code>，按<span class="label label-default">產生付款資訊 / 掃描直接付款</span>送出 </dd>
-					<dd> 2. "orderId" 可自訂或用產生訂單編號來建立 </dd>
 				</dl>
 	        </div>
 
 	        <div class="col-xs-6" style="padding:20px">
 				<dl>
+					<span class="label label-danger">直接支付</span> (商家掃描顧客 QR code 付款)
+					<dd> 1. 填 <code>商家掃描顧客QRcode Request Payload 2</code> 參數值及選擇 <code>Payment model</code> 為"商家掃描顧客QRcode"，與使用的 <code>Merchant</code>，按<span class="label label-default">產生付款資訊 / 掃描直接付款</span>送出 </dd>
+					<dd> 2. "orderId" 可自訂或用產生訂單編號來建立 </dd>
+					
 					<span class="label label-danger">查詢支付狀況</span>
 					<dd> 填 <code>Merchant</code> 、預查交易編號 <code>TransactionId</code> 及訂單編號 <code>OrderId</code>，按<span class="label label-default">查詢支付狀況</span>送出 </dd>
 
