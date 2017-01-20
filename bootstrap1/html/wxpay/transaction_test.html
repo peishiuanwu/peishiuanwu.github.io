@@ -176,22 +176,19 @@
 					<dd> 1. 填 <code>Request Payload</code> 參數值及使用的 <code>Merchant</code>，按<span class="label label-default">產生QRCode</span>送出 </dd>
 					<dd> 2. 同時並啟動 Notify 等待支付結果，確認 <code>Trans_code</code> 和 <code>Check_code</code> 是否為目前支付訂單的資料，而 <code>Xpay Server IP</code> 為設定該功能 query 的 IP，再按<span class="label label-default">開始等待notify</span> </dd>
 					<dd> 3. 使用 Wxpay App 支付掃描，掃描上面的 QRCdoe 付款即可 </dd>
-
-					<span class="label label-primary">查詢 Order 狀態</span>
-					<dd> 填 <code>Merchant</code> 及預查交易序號 <code>Out_trade_no</code>，按<span class="label label-default">查詢訂單狀態</span>送出 </dd>
 				</table>
 			</div>
 
 			<div class="col-xs-6" style="padding:20px">
 				<dl>
+					<span class="label label-primary">查詢 Order 狀態</span>
+					<dd> 填 <code>Merchant</code> 及預查交易序號 <code>Out_trade_no</code>，按<span class="label label-default">查詢訂單狀態</span>送出 </dd>
+					
 					<span class="label label-primary">關閉 Order</span>
 					<dd> 填 <code>Merchant</code> 及預關閉交易序號 <code>Out_trade_no</code>，按<span class="label label-default">關閉訂單</span>送出</dd>
 
 					<span class="label label-primary">退款 Order</span>
 					<dd> 填 <code>Merchant</code> 、預退款交易序號 <code>Out_trade_no</code> 、訂單總金額 <code>Total_fee</code> 及退款金額 <code>Refund_fee</code>，按<span class="label label-default">退款</span>送出 </dd>
-
-					<span class="label label-primary">初始畫面</span>
-					<dd> 按<span class="label label-default">清除</span> </dd>
 				</dl>
 			</div>
 		</div>
