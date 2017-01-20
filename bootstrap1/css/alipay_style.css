@@ -20,7 +20,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif,"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體";
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -109,7 +109,7 @@ footer {
 
 footer p {
     margin: 0;
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 @media screen and (min-width:768px) {
