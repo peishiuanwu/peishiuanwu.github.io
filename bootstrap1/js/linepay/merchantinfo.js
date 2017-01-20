@@ -45,3 +45,7 @@ $('#merchant-form').on('click', 'button', function(e) {
 
     return false;
 });
+
+//顯示&隱藏註解
+$(".container:eq(1)").find(".row:eq(0)>.box").mouseenter(function(e){ $("#annotate").slideDown("slow"); });
+$(".container:eq(1)").find(".row:eq(0)>.box").mouseleave(function(e){ $("#annotate").hide("slow"); });
